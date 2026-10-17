@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #16a085, #f39c12);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  background: white;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 360px;
+  text-align: center;
+}
+
+h1 {
+  color: #2c3e50;
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+.instruction {
+  font-size: 0.85rem;
+  color: #7f8c8d;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+.stats-box {
+  background-color: #e8f8f5;
+  color: #16a085;
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+}
+
+.input-box {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+input[type="number"] {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #bdc3c7;
+  font-size: 1rem;
+  outline: none;
+  text-align: center;
+}
+
+button {
+  padding: 10px 16px;
+  font-size: 0.95rem;
+  font-weight: bold;
+  color: white;
+  background-color: #27ae60;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #219653;
+}
+
+.message {
+  font-size: 0.95rem;
+  font-weight: bold;
+  color: #34495e;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #ecf0f1;
+  border-radius: 8px;
+  line-height: 1.3;
+}
+
+.history-box {
+  text-align: left;
+  margin-bottom: 15px;
+  background: #f8f9fa;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px dashed #ced4da;
+}
+
+.history-box h3 {
+  font-size: 0.85rem;
+  margin: 0 0 8px 0;
+  color: #495057;
+}
+
+.history-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+.tag {
+  background: #e9ecef;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.hidden {
+  display: none;
+}
+
+#restart-btn {
+  width: 100%;
+  background-color: #2980b9;
+}
+
+#restart-btn:hover {
+  background-color: #1f618d;
+}
