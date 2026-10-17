@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Đoán Số v1.0 - Cơ Bản</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎯 Đoán Số Bí Mật</h1>
+    <p class="instruction">Máy đã chọn 1 số từ <strong>1 đến 100</strong>. Bạn hãy đoán xem đó là số mấy nhé!</p>
+
+    <div class="input-box">
+      <input type="number" id="user-guess" placeholder="Nhập số của bạn..." min="1" max="100">
+      <button id="guess-btn">Đoán 🚀</button>
+    </div>
+
+    <!-- Nơi hiển thị thông báo kết quả -->
+    <div id="message" class="message">Hãy thử nhập một số đi nào!</div>
+
+    <!-- Nút chơi lại (ẩn đi lúc đầu) -->
+    <button id="restart-btn" class="hidden">Chơi ván mới 🔄</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
